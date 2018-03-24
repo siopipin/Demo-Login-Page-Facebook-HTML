@@ -3,6 +3,7 @@
 <head>
     <title>Facebook</title>
     <link rel="stylesheet" type="text/css" href="fb.css" />
+    <script type="text/javascript" src="./fb.js"></script>
 </head>
 
 <body>
@@ -51,7 +52,7 @@
                 <h3>Gratis sampai akhir zaman</h3>
                 <hr style="color: blue">
 
-                <form>
+                <form onsubmit="return cekpendaftaran(this);">
                     <table>
 
                         <tr>
@@ -69,23 +70,23 @@
                         </tr>
 
                         <tr>
-                            <td>Email Anda</td>
+                            <td>username</td>
                             <td>
-                                <input type="text" size="33">
+                                <input type="text" name="username" size="33">
                             </td>
                         </tr>
 
                         <tr>
-                            <td>Ulang Email</td>
+                            <td>Password</td>
                             <td>
-                                <input type="text" size="33">
+                                <input type="text" name="pwd1" size="33">
                             </td>
                         </tr>
 
                         <tr>
-                            <td>Kata Sandi Baru</td>
+                            <td>Re-Password</td>
                             <td>
-                                <input type="text" size="33">
+                                <input type="text" name="pwd2" size="33">
                             </td>
                         </tr>
                         <tr>
@@ -144,7 +145,7 @@
                     </table>
 
 
-                    <input class="Bdaftar" type="button" value="Mendaftar">
+                    <input class="Bdaftar" type="submit" value="Mendaftar">
                     <br>
                     <br>
                     <br>
