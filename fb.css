@@ -1,0 +1,86 @@
+body{
+    line-height: 10px;
+    margin: 0px;
+    height: 500px;
+    background-color: #efefef;
+}
+
+#main{
+    background-color: #142170;
+    color: white;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+}
+
+#logo{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+.tombol{
+    margin-right: 200px;
+    float: right;
+    padding: 5px;
+    height: 100px;
+}
+
+.kolomlogin {
+    float: right;
+    padding: 5px;
+    height: 100px;
+}
+
+#spacekiri{
+    float: left;
+    padding-top: 50px;
+    line-height: 35px;
+}
+
+.gambarkiri{
+    margin-top: -50px;
+    height: 200px;
+}
+
+.introtext {
+    font-family: verdana;
+    font-size: 30px;
+    color: #142170;
+    height: 75px;
+    width: 550px;
+}
+
+#spacekanan {
+    float: left;
+    padding-left: 90px; 
+    width: 370px;
+    height: 440px;
+    color: #142170;
+}
+
+.Bdaftar{
+    float: right;
+    background-color:  #142170;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#footer{
+    margin-top: 530px;
+    background-color: #142170;
+    color: white;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+}
