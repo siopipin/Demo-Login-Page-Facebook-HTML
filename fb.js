@@ -28,6 +28,6 @@
       form.pwd1.focus();
       return false;
     }
-    alert("Selamat Datang (form.pwd1.value)");
+    alert("Selamat Datang");
     return true;
   }
