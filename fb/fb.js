@@ -1,10 +1,10 @@
-  function cekkatasanti(str)
+function cekkatasanti(str)
   {
     var re = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
     return re.test(str);
   }
 
-  function cekpendaftaran(form)
+function cekpendaftaran(form)
   {
     if(form.username.value == "") {
       alert("Error: Username harus terisi!");
@@ -31,3 +31,4 @@
     alert("Selamat Datang");
     return true;
   }
+           
